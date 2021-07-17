@@ -1,0 +1,752 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Responsive sidebar template with sliding effect and dropdown menu based on bootstrap 3">
+    <title>Sidebar template</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+        crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Infra</title>
+  </head>
+  <body>
+    <div class="page-wrapper chiller-theme toggled">
+        <a id="show-sidebar" class="btn btn-sm btn-dark" href="#">
+          <i class="fas fa-bars"></i>
+        </a>
+        <nav id="sidebar" class="sidebar-wrapper">
+          <div class="sidebar-content">
+            <div class="sidebar-brand">
+              <a href="#" style="color: #fff;font-size: 23px;">Thyrocare</a>
+              <div id="close-sidebar">
+                <i class="fas fa-times"></i>
+              </div>
+            </div>
+            <div class="sidebar-header">
+              <div class="user-pic">
+                <img class="img-responsive img-rounded" src="https://raw.githubusercontent.com/azouaoui-med/pro-sidebar-template/gh-pages/src/img/user.jpg"
+                  alt="User picture">
+              </div>
+              <div class="user-info">
+                <span class="user-name">Jhon
+                  <strong>Smith</strong>
+                </span>
+                <span class="user-role">Administrator</span>
+                <span class="user-status">
+                  <i class="fa fa-circle"></i>
+                  <span>Online</span>
+                </span>
+              </div>
+            </div>
+            <!-- sidebar-header  -->
+            <div class="sidebar-search">
+              <div>
+                <div class="input-group">
+                  <input type="text" class="form-control search-menu" placeholder="Search...">
+                  <div class="input-group-append">
+                    <span class="input-group-text">
+                      <i class="fa fa-search" aria-hidden="true"></i>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- sidebar-search  -->
+            <div class="sidebar-menu">
+              <ul class="sidnav">
+                <li class="header-menu">
+                  <span>General</span>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-tachometer-alt"></i>
+                    <span>Project Master</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="#">Dashboard 1
+                          <span class="badge badge-pill badge-success">Pro</span>
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">Dashboard 2</a>
+                      </li>
+                      <li>
+                        <a href="#">Dashboard 3</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>Vendor Master</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="#">Products
+      
+                        </a>
+                      </li>
+                      <li>
+                        <a href="#">Orders</a>
+                      </li>
+                      <li>
+                        <a href="#">Credit cart</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="far fa-gem"></i>
+                    <span>Labour Details</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="#">General</a>
+                      </li>
+                      <li>
+                        <a href="#">Panels</a>
+                      </li>
+                      <li>
+                        <a href="#">Tables</a>
+                      </li>
+                      <li>
+                        <a href="#">Icons</a>
+                      </li>
+                      <li>
+                        <a href="#">Forms</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-chart-line"></i>
+                    <span>Expenditure</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="#">Pie chart</a>
+                      </li>
+                      <li>
+                        <a href="#">Line chart</a>
+                      </li>
+                      <li>
+                        <a href="#">Bar chart</a>
+                      </li>
+                      <li>
+                        <a href="#">Histogram</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                    <i class="fa fa-globe"></i>
+                    <span>Material Master</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                    <ul>
+                      <li>
+                        <a href="#">Google maps</a>
+                      </li>
+                      <li>
+                        <a href="#">Open street map</a>
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                      <i class="fa fa-clipboard"></i>
+                      <span>Rais PO</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                      <ul>
+                      <li>
+                          <a href="#">Google maps</a>
+                      </li>
+                      <li>
+                          <a href="#">Open street map</a>
+                      </li>
+                      </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown">
+                  <a href="#">
+                      <i class="fa fa-file-excel"></i>
+                      <span>Bills</span>
+                  </a>
+                  <div class="sidebar-submenu">
+                      <ul>
+                      <li>
+                          <a href="#">Google maps</a>
+                      </li>
+                      <li>
+                          <a href="#">Open street map</a>
+                      </li>
+                      </ul>
+                  </div>
+                </li>
+                <li class="sidebar-dropdown" title="Log Out">
+                  <a href="#">
+                      <i class="fa fa-power-off"></i>
+                      <span>Log Out</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <!-- sidebar-menu  -->
+          </div>
+          <!-- sidebar-content  -->
+          <div class="sidebar-footer">
+            <a href="#">
+              <i class="fa fa-bell"></i>
+              <span class="badge badge-pill badge-warning notification">3</span>
+            </a>
+            <a href="#">
+              <i class="fa fa-envelope"></i>
+              <span class="badge badge-pill badge-success notification">7</span>
+            </a>
+            <a href="#">
+              <i class="fa fa-cog"></i>
+              <span class="badge-sonar"></span>
+            </a>
+            <!-- <a href="#">
+              <i class="fa fa-power-off"></i>
+            </a> -->
+          </div>
+        </nav>
+        <!-- sidebar-wrapper  -->
+        <main class="page-content">
+          <div class="container-fluid">
+            <h2>Dashboard</h2>
+            <hr>
+            <div class="row">
+              <div class="form-group col-md-12">
+                <div class="row">
+                  <div class=" col col-md-6 col-lg-3">
+                    <div class="cards">
+                      <ul class="list-inline card-head">
+                        <li class="list-inline-item">
+                          PROJECTS
+                        </li>
+                        <li class="list-inline-item">
+                            <i class="fas fa-tasks"></i>
+                        </li>
+                      </ul>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          On going
+                        </li>
+                        <li class="list-inline-item list1">
+                          100
+                        </li>
+                      </ul>
+                      <ul class="list-inline">
+                        <li class="list-inline-item">
+                          Completed
+                        </li>
+                        <li class="list-inline-item list1">
+                          50
+                        </li>
+                      </ul>
+                      <a href="#"><span>More Info</span></a>
+                    </div>
+                  </div>
+                  <div class=" col col-md-6 col-lg-3">
+                      <div class="cards1">
+                          <ul class="list-inline card-head1">
+                            <li class="list-inline-item">
+                              MATERIALS
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-cubes"></i>
+                            </li>
+                          </ul>
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              Available
+                            </li>
+                            <li class="list-inline-item list2">
+                              20%
+                            </li>
+                          </ul>
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              Used
+                            </li>
+                            <li class="list-inline-item list3">
+                              80%
+                            </li>
+                          </ul>
+                          <a href="#"><span>More Info</span></a>
+                        </div>
+                  </div>
+                  <div class="col col-md-6  col-lg-3">
+                      <div class="cards2">
+                          <ul class="list-inline card-head2">
+                            <li class="list-inline-item">
+                              PAYMENTS
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-rupee-sign"></i>
+                            </li>
+                          </ul>
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              Expenses
+                            </li>
+                            <li class="list-inline-item list4">
+                              Rs. 200000
+                            </li>
+                          </ul>
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              Sales
+                            </li>
+                            <li class="list-inline-item list5">
+                              Rs. 500000
+                            </li>
+                          </ul>
+                          <a href="#"><span>More Info</span></a>
+                        </div>
+                  </div>
+                  <div class="col col-md-6 col-lg-3">
+                      <div class="cards3">
+                          <ul class="list-inline card-head3">
+                            <li class="list-inline-item">
+                              CREDITS
+                            </li>
+                            <li class="list-inline-item">
+                                <i class="fas fa-credit-card"></i>
+                            </li>
+                          </ul>
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                              Vendor 1
+                            </li>
+                            <li class="list-inline-item list6">
+                                Rs. 300000
+                            </li>
+                          </ul>
+                          <ul class="list-inline">
+                            <li class="list-inline-item">
+                                Vendor 2
+                            </li>
+                            <li class="list-inline-item list7">
+                                Rs. 100000
+                            </li>
+                          </ul>
+                          <a href="#"><span>More Info</span></a>
+                        </div>
+                    </div>
+                </div>
+              </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-md-6">
+                    <div id="curve_chart" style="width: 100%; height: 100%;box-shadow: 0 5px 20px rgb(0 0 0 / 30%);border-radius: 10px!important;"></div>
+                </div>
+                <div class="col-md-6">
+                    <div id="container" style="box-shadow: 0 5px 20px rgb(0 0 0 / 30%);border-radius: 10px;background: #fff;"></div>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+              <div class="col-md-6">
+                  <div class="calendar">
+                      <div class="front">
+                        <div class="current-date">
+                          <h1>Friday 15th</h1>
+                          <h1>January 2016</h1>	
+                        </div>
+                        <div class="current-month">
+                          <ul class="week-days list-unstyled">
+                            <li>MON</li>
+                            <li>TUE</li>
+                            <li>WED</li>
+                            <li>THU</li>
+                            <li>FRI</li>
+                            <li>SAT</li>
+                            <li>SUN</li>
+                          </ul>
+                          <div class="weeks">
+                            <div class="first">
+                              <span class="last-month">28</span>
+                              <span class="last-month">29</span>
+                              <span class="last-month">30</span>
+                              <span class="last-month">31</span>
+                              <span>01</span>
+                              <span>02</span>
+                              <span>03</span>
+                            </div>
+                            <div class="second">
+                              <span>04</span>
+                              <span>05</span>
+                              <span class="event">06</span>
+                              <span>07</span>
+                              <span>08</span>
+                              <span>09</span>
+                              <span>10</span>
+                            </div>
+                            <div class="third">
+                              <span>11</span>
+                              <span>12</span>
+                              <span>13</span>
+                              <span>14</span>
+                              <span class="active">15</span>
+                              <span>16</span>
+                              <span>17</span>
+                            </div>
+                            <div class="fourth">
+                              <span>18</span>
+                              <span>19</span>
+                              <span>20</span>
+                              <span>21</span>
+                              <span>22</span>
+                              <span>23</span>
+                              <span>24</span>
+                            </div>
+                            <div class="fifth">
+                              <span>25</span>
+                              <span>26</span>
+                              <span>27</span>
+                              <span>28</span>
+                              <span>29</span>
+                              <span>30</span>
+                              <span>31</span>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="back">
+                        <input placeholder="What's the event?">
+                        <div class="info">
+                          <div class="date">
+                            <p class="info-date">
+                            Date: <span>Jan 15th, 2016</span>
+                            </p>
+                            <p class="info-time">
+                              Time: <span>6:35 PM</span>
+                            </p>
+                          </div>
+                          <div class="address">
+                            <p>
+                              Address: <span>129 W 81st St, New York, NY</span>
+                            </p>
+                          </div>
+                          <div class="observations">
+                            <p>
+                              Observations: <span>Be there 15 minutes earlier</span>
+                            </p>
+                          </div>
+                        </div>
+              
+                        <div class="actions">
+                          <button class="save">
+                            Save <i class="ion-checkmark"></i>
+                          </button>
+                          <button class="dismiss">
+                            Dismiss <i class="ion-android-close"></i>
+                          </button>
+                        </div>
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-6">
+                <div class="tod_list_section">
+                  <div class="wrapper">
+                    <header>To Do List</header>
+                    <div class="inputField">
+                      <input type="text" placeholder="Add your new todo">
+                      <button><i class="fas fa-plus"></i></button>
+                    </div>
+                    <ul class="todoList">
+                      <!-- data are comes from local storage -->
+                    </ul>
+                    <div class="footer">
+                      <span>You have <span class="pendingTasks"></span> pending tasks</span>
+                      <button>Clear All</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="container-fluid">
+              <footer class="text-center">
+                <div class="mb-2">
+                  <small>
+                    <a>
+                    Copyright © 2021 | Thyrocare Technologies Limited. All rights reserved.
+                    </a>
+                  </small>
+                </div>
+              
+              </footer>
+            </div>
+          </div>
+        </main>
+        <!-- page-content" -->
+      </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js/script.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/modules/exporting.js"></script>
+    <script src="https://code.highcharts.com/modules/export-data.js"></script>
+    <script src="https://code.highcharts.com/modules/accessibility.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script>
+      jQuery(function ($) {
+
+$(".sidebar-dropdown > a").click(function() {
+$(".sidebar-submenu").slideUp(200);
+if (
+$(this)
+  .parent()
+  .hasClass("active")
+) {
+$(".sidebar-dropdown").removeClass("active");
+$(this)
+  .parent()
+  .removeClass("active");
+} else {
+$(".sidebar-dropdown").removeClass("active");
+$(this)
+  .next(".sidebar-submenu")
+  .slideDown(200);
+$(this)
+  .parent()
+  .addClass("active");
+}
+});
+
+$("#close-sidebar").click(function() {
+$(".page-wrapper").removeClass("toggled");
+});
+$("#show-sidebar").click(function() {
+$(".page-wrapper").addClass("toggled");
+});
+});
+
+// graph js 1
+
+Highcharts.chart('container', {
+    chart: {
+        type: 'areaspline'
+    },
+    title: {
+        text: 'Work Progress'
+    },
+    legend: {
+        layout: 'vertical',
+        align: 'left',
+        verticalAlign: 'top',
+        x: 150,
+        y: 100,
+        floating: true,
+        borderWidth: 1,
+        backgroundColor:
+            Highcharts.defaultOptions.legend.backgroundColor || '#FFFFFF'
+    },
+    xAxis: {
+        categories: [
+            'Monday',
+            'Tuesday',
+            'Wednesday',
+            'Thursday',
+            'Friday',
+            'Saturday',
+            'Sunday'
+        ],
+        plotBands: [{ // visualize the weekend
+            from: 4.5,
+            to: 6.5,
+            color: 'rgba(68, 170, 213, .2)'
+        }]
+    },
+    yAxis: {
+        title: {
+            text: 'Work Progress'
+        }
+    },
+    tooltip: {
+        shared: true,
+        valueSuffix: ' units'
+    },
+    credits: {
+        enabled: false
+    },
+    plotOptions: {
+        areaspline: {
+            fillOpacity: 0.5
+        }
+    },
+    series: [{
+        name: 'High',
+        data: [3, 4, 3, 5, 4, 10, 12]
+    }, {
+        name: 'Low',
+        data: [1, 3, 4, 3, 3, 5, 4]
+    }]
+});
+
+// graph js2
+
+
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Year', 'Sales', 'Expenses', 'Sameer'],
+          ['2004',  1000,      400,300],
+          ['2005',  1170,      460,300],
+          ['2006',  660,       1120,300],
+          ['2007',  1030,      540,300]
+        ]);
+
+        var options = {
+          title: 'Sales / Expenses',
+          curveType: 'function',
+          legend: { position: 'bottom' }
+        };
+
+        var chart = new google.visualization.LineChart(document.getElementById('curve_chart'));
+
+        chart.draw(data, options);
+      };
+    
+
+    // calender js
+      
+
+      var app = {
+	settings: {
+		container: $('.calendar'),
+		calendar: $('.front'),
+		days: $('.weeks span'),
+		form: $('.back'),
+		input: $('.back input'),
+		buttons: $('.back button')
+	},
+
+	init: function() {
+		instance = this;
+		settings = this.settings;
+		this.bindUIActions();
+	},
+
+	swap: function(currentSide, desiredSide) {
+		settings.container.toggleClass('flip');
+
+    currentSide.fadeOut(900);
+    currentSide.hide();
+    desiredSide.show();
+
+	},
+
+	bindUIActions: function() {
+		settings.days.on('click', function(){
+			instance.swap(settings.calendar, settings.form);
+			settings.input.focus();
+		});
+
+		settings.buttons.on('click', function(){
+			instance.swap(settings.form, settings.calendar);
+		});
+	}
+}
+
+app.init();
+
+
+// to do list js
+
+
+// getting all required elements
+const inputBox = document.querySelector(".inputField input");
+const addBtn = document.querySelector(".inputField button");
+const todoList = document.querySelector(".todoList");
+const deleteAllBtn = document.querySelector(".footer button");
+
+// onkeyup event
+inputBox.onkeyup = ()=>{
+  let userEnteredValue = inputBox.value; //getting user entered value
+  if(userEnteredValue.trim() != 0){ //if the user value isn't only spaces
+    addBtn.classList.add("active"); //active the add button
+  }else{
+    addBtn.classList.remove("active"); //unactive the add button
+  }
+}
+
+showTasks(); //calling showTask function
+
+addBtn.onclick = ()=>{ //when user click on plus icon button
+  let userEnteredValue = inputBox.value; //getting input field value
+  let getLocalStorageData = localStorage.getItem("New Todo"); //getting localstorage
+  if(getLocalStorageData == null){ //if localstorage has no data
+    listArray = []; //create a blank array
+  }else{
+    listArray = JSON.parse(getLocalStorageData);  //transforming json string into a js object
+  }
+  listArray.push(userEnteredValue); //pushing or adding new value in array
+  localStorage.setItem("New Todo", JSON.stringify(listArray)); //transforming js object into a json string
+  showTasks(); //calling showTask function
+  addBtn.classList.remove("active"); //unactive the add button once the task added
+}
+
+function showTasks(){
+  let getLocalStorageData = localStorage.getItem("New Todo");
+  if(getLocalStorageData == null){
+    listArray = [];
+  }else{
+    listArray = JSON.parse(getLocalStorageData); 
+  }
+  const pendingTasksNumb = document.querySelector(".pendingTasks");
+  pendingTasksNumb.textContent = listArray.length; //passing the array length in pendingtask
+  if(listArray.length > 0){ //if array length is greater than 0
+    deleteAllBtn.classList.add("active"); //active the delete button
+  }else{
+    deleteAllBtn.classList.remove("active"); //unactive the delete button
+  }
+  let newLiTag = "";
+  listArray.forEach((element, index) => {
+    newLiTag += `<li>${element}<span class="icon" onclick="deleteTask(${index})"><i class="fas fa-trash"></i></span></li>`;
+  });
+  todoList.innerHTML = newLiTag; //adding new li tag inside ul tag
+  inputBox.value = ""; //once task added leave the input field blank
+}
+
+// delete task function
+function deleteTask(index){
+  let getLocalStorageData = localStorage.getItem("New Todo");
+  listArray = JSON.parse(getLocalStorageData);
+  listArray.splice(index, 1); //delete or remove the li
+  localStorage.setItem("New Todo", JSON.stringify(listArray));
+  showTasks(); //call the showTasks function
+}
+
+// delete all tasks function
+deleteAllBtn.onclick = ()=>{
+  listArray = []; //empty the array
+  localStorage.setItem("New Todo", JSON.stringify(listArray)); //set the item in localstorage
+  showTasks(); //call the showTasks function
+} 
+      </script>
+  </body>
+</html>
